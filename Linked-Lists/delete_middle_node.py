@@ -1,5 +1,5 @@
 # Implement an algorithm to delete a node in the middle (i.e./ any node but the
-# first and last node, not necessarily the exact middle node) of a sinly linked 
+# first and last node, not necessarily the exact middle node) of a sinly linked
 # list, given only access to that code
 
 from linked_list import LinkedList

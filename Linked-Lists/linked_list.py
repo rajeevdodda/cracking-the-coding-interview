@@ -27,6 +27,7 @@ class LinkedList:
             print(node.data, end=" -> ")
             node = node.next
         print()
+
     def _length_recursive(self, node: Node):
         if not node:
             return 0
