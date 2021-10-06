@@ -28,5 +28,4 @@ def minimal_tree(array, start, end):
 root = minimal_tree(elements, 0, len(elements) - 1)
 
 
-
 inorder(root)
