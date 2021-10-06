@@ -43,11 +43,12 @@ def postorder(root):
         postorder(root.right)
         print(root.data, end="->")
 
-print("Inorder traversal")
-inorder(root=root)
+if __name__ == "__main__":
+    print("Inorder traversal")
+    inorder(root=root)
 
-print("\npreorder traversal")
-preorder(root=root)
+    print("\npreorder traversal")
+    preorder(root=root)
 
-print("\npostorder traversal")
-postorder(root=root)
+    print("\npostorder traversal")
+    postorder(root=root)
